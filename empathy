@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 500px;
+            width: 900px;
+            background-color: beige;
+            padding: 40px;
+            position: relative;
+            margin: 40px;
+        }
+
+        .logo{
+            height: 18px;
+            width: 18px;
+            border-radius: 100%;
+            background-color: red;
+            padding: 1px;
+            top: 3px;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+        }
+        li{
+            display: inline;
+
+        }
+        li:hover{
+            background-color: aqua;
+        }
+        .cira{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(87, 87, 83, 0.795);
+            position: absolute;
+            right: 210px;
+            border-radius: 100%;
+            top: 240px;
+
+        }
+    
+        .cirs1{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(87, 87, 83, 0.795);
+            position: absolute;
+            right: 60px;
+            border-radius: 100%;
+            top: 90px;
+        }
+
+
+
+        .cirs2{
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            position: absolute;
+            right: 80px;
+            border-radius: 100%;
+            top: 98px; 
+            overflow: hidden;
+        }
+        .learn{
+            background-color: rgba(241, 9, 9, 0.692);
+            height: 30px;
+            width: 100px;
+            padding: 3px;
+            justify-content: center;
+        }
+   .btn{
+    height: 30px;
+    width: 60px;
+   }
+   p{
+    padding: 5px;
+   }
+   u{
+    margin: 7px;
+   }
+   .log{
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    position: absolute;
+    border-radius: 100%;
+    left: 100px;
+    top: 40px;
+   }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <nav>
+            <div class="logo"></div>
+            <li>Home</li>
+            <li>Design resources</li>
+            <li>Principles</li>
+            <li>Guidelines</li>
+            <li>Contact</li>
+            <div class="log"></div>
+
+        </nav><br><br><br><br><br>
+         <u style="color: red;">______</u>
+        <p>HEART &nbsp; OF &nbsp DESIGN</p>
+        <h1>STUDY EMPATHY</h1><br>
+        Empathy is the heart of design without the understanding <br>
+        of what others see,feel and experience,<br> 
+        design is a pointless task. <br><br>
+        
+            <div class="cirs1"></div>
+            <div class="cira"></div>
+            <div class="cirs2"><figure><img src="fire.jpg" width="300px" alt=""></figure></div>
+                <div class="learn">learn more</div>
+       
+
+
+                
+            
+    </div>    
+</body>
+</html>
